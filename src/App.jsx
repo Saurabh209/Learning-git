@@ -9,6 +9,8 @@ function App() {
   return (
     <>
     <h2>First change</h2>
+    <p>changes made by user2
+    </p>
     </>
   )
 }
