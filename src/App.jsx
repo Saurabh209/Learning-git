@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Form from './form.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,8 @@ function App() {
     <p>first change by saurabh-br1</p>
     <p>second change by saurabh-br1</p>
     <p>fifth change by saurabh</p>
+
+    <Form/>
     </>
   )
 }
